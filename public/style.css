@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,7 +515,38 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-red-600 {
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.bg-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-tertiary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 199 190 / var(--tw-bg-opacity));
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.font-OpenSans{
+  font-family: Open Sans;
+}
+
+.text-green-900{
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+  color: rgb(20 83 45 / var(--tw-text-opacity));
 }
