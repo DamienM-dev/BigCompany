@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <header class="bg-primary rounded-b-lg">
+        <header class="bg-primary rounded-b-3xl h-56">
             <nav class="flex justify-between mx-2 pt-5">
                 <h1 class="titreStyle">The Big Company</h1>
                 <ul class="flex">
@@ -20,34 +20,40 @@
                 <a class="buttonStyle">Inscription</a>
             </nav>
             <div>
-                <h2 class="text-xl text-center font-bold my-2">Créez des <span class="text-gray-50 bg-secondary py-1 px-2">designs</span> en quelques classes</h2>
+                <h2 class="text-4xl text-center font-bold my-9">Créez des <span class="text-white bg-secondary py-1 px-2 rounded">designs</span><br> en quelques classes</h2>
             </div>
         </header>
 
         <main>
-            <form action="" method="get" class="bg-tertiary">
-                <div>
-                  <p class="text-center">Inscrivez-vous </p>
-                  <input type="email" name="email" id="email" placeholder="Adresse Email">
-                  <input type="password" name="password" id="password" placeholder="Votre password">
+            <form action="" method="get" class="text-white bg-tertiary container rounded w-96 h-56 -mt-8 ">
+
+                <div class="mx-5">
+                    <p class="pt-8 text-xl">Inscrivez-vous </p>
+                    <div class="flex flex-col gap-1  mx-auto mt-5">
+    
+                        <input type="email" name="email" id="email" placeholder="Adresse email" class=" bg-tertiary border-2 border-white placeholder:text-white">
+                        <input type="password" name="password" id="password" placeholder="Votre password" class=" bg-tertiary border-2 border-white placeholder:text-white mb-2">
+                    </div>
+                   
+                  <div class="flex flex-row-reverse mt-3">
+                    <input type="submit" value="Je m'inscris" class="buttonStyle">
+                  </div>
                 </div>
-                <div class="">
-                  <input type="submit" value="Je m'inscris" class="buttonStyle">
-                </div>
+             
             </form>
        
-            <article>
+            <article class="mx-4">
                 <h3 class="titreStyle">Nos derniers articles</h3>
 
-                <section>
-                    <h4 class="text-green-900">Article A</h4>
+                <section class="sectionStyle">
+                    <h4 class="">Article A</h4>
                     <p>Présentation de l'article A en quelques lignes</p>
                 </section>
-                <section>
+                <section class="sectionStyle">
                     <h4>Article B</h4>
                     <p>Présentation de l'article B en quelques lignes</p>
                 </section>
-                <section>
+                <section class="sectionStyle">
                     <h4>Article C</h4>
                     <p>Présentation de l'article C en quelques lignes</p>
                 </section> 
