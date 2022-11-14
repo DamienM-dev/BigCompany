@@ -4,3 +4,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.titreStyle {
+font-weight: bold;
+font-family: 'OpenSans';
+}
+.buttonStyle {
+    background-color: #ffc100;
+    width: 125px;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+}
