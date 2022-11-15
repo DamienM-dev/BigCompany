@@ -6,23 +6,23 @@
 @tailwind utilities;
 
 .titreStyle {
-font-weight: bold;
-font-family: 'OpenSans';
-font-size: 20px;
+    @apply font-bold font-['OpenSans'] text-xl;
+
+}
+.formFildStyle {
+    @apply bg-tertiary border-2 border-white placeholder:text-white placeholder:pl-3;
 }
 
-
 .buttonStyle {
-    background-color: #ffc100;
-    width: 125px;
-    color: white;
-    padding: 5px;
-    border-radius: 25px;
-    text-align: center;
+    @apply bg-secondary w-32 text-white p-1 rounded-3xl text-center;
+   
 }
 
 .sectionStyle {
-    border: 1px solid #ffc100;
-    width: 100%;
-    height: 80px;
+    @apply border-solid border-2 border-secondary w-full h-24 lg:w-96;
+
+}
+
+.titreSectionStyle {
+    @apply text-secondary mt-3 ml-3;
 }
