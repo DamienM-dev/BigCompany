@@ -7,24 +7,24 @@
 @tailwind utilities;
 
 .titreStyle {
-    @apply font-bold font-['OpenSans'] text-xl;
+    @apply font-bold font-['OpenSans'] text-xl dark:text-white;
 
 }
 
 .formFildStyle {
-    @apply bg-tertiary border-2 border-white rounded placeholder:text-white placeholder:pl-3;
+    @apply bg-tertiary border-2 border-white rounded placeholder:text-white placeholder:pl-3 dark:bg-tertiaryDark;
 }
 
 .buttonStyle {
-    @apply bg-secondary w-32 text-white p-1 rounded-3xl text-center;
+    @apply bg-secondary w-32 text-white p-1 rounded-3xl text-center dark:bg-secondaryDark;
    
 }
 
 .sectionStyle {
-    @apply border-solid border-2 border-secondary w-full h-24 lg:w-96;
+    @apply border-solid border-2 border-secondary w-full h-24 lg:w-96 dark:border-secondaryDark dark:text-white;
 
 }
 
 .titreSectionStyle {
-    @apply text-secondary mt-3 ml-3;
+    @apply text-secondary mt-3 ml-3 dark:text-secondaryDark;
 }
