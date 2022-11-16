@@ -21,10 +21,14 @@
 }
 
 .sectionStyle {
-    @apply border-solid border-2 border-secondary w-full h-24 lg:w-96 dark:border-secondaryDark dark:text-white;
+    @apply border-solid border-2 border-secondary w-full h-24 dark:border-secondaryDark dark:text-white lg:w-full lg:h-28;
 
 }
 
 .titreSectionStyle {
     @apply text-secondary mt-3 ml-3 dark:text-secondaryDark;
+}
+
+.lienHeaderStyle{
+    @apply pr-2 dark:text-white lg:pr-4;
 }
