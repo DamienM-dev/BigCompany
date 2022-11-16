@@ -9,7 +9,8 @@ module.exports = {
         'tertiary': '#17c7be'
       },
       fontFamily: {
-        'OpenSans': ['Open Sans']
+        'OpenSans': ['Open Sans'],
+        'Roboto':['Roboto'],
       },
     },
     container: {

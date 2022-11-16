@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -686,10 +684,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.font-Roboto{
-  font-family: Roboto;
 }
 
 .text-4xl{

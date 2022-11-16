@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 @tailwind base;
@@ -9,8 +10,9 @@
     @apply font-bold font-['OpenSans'] text-xl;
 
 }
+
 .formFildStyle {
-    @apply bg-tertiary border-2 border-white placeholder:text-white placeholder:pl-3;
+    @apply bg-tertiary border-2 border-white rounded placeholder:text-white placeholder:pl-3;
 }
 
 .buttonStyle {
